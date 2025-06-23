@@ -1,0 +1,23 @@
+# z=[]
+# a = int(input("Enter the number"))
+# b = int(input("Enter the number"))
+# c= int(input("Enter the number"))
+# d= int(input("Enter the number"))
+# e= int(input("Enter the number"))
+# z.append(a)
+# z.append(b)
+# z.append(c)
+# z.append(d)
+# z.append(e)
+# print(z[-1])
+x = []
+k = int(input("Enter the number"))
+l = int(input("Enter the number"))
+m = int(input("Enter the number"))
+x.append(k)
+x.append(l)
+x.append(m)
+l = x[0]+x[1]+x[2]
+print(l)
+x.insert(0,"broadway")
+print(x)
